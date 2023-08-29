@@ -35,7 +35,9 @@ class Currency {
         // Hint: Access field values with: this.fieldName
 
         let description = `The ${null} currency `;
+
         description += `has the code ${this. _code} `;
+
         description += `and uses the symbol ${ this. _symbol}.`;
 
         console.log(description);
