@@ -13,7 +13,7 @@ class Currency {
 
     // Add types to the constructor parameters.
 
-    constructor(name, code, symbol) {
+    constructor(name : string, code : string, symbol : string) {
         this._name = name;
         this. _code = code;
         this. _symbol = symbol;
@@ -35,8 +35,8 @@ class Currency {
         // Hint: Access field values with: this.fieldName
 
         let description = `The ${null} currency `;
-        description += `has the code ${null} `;
-        description += `and uses the symbol ${null}.`;
+        description += `has the code ${this. _code } `;
+        description += `and uses the symbol ${ this. _symbol}.`;
 
         console.log(description);
     }

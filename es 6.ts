@@ -29,7 +29,7 @@ type Currency ={
     code: string;
     symbol : string;
 }
-const currencyData = {
+const currencyData : Currency = {
     name: "Euro",
     code: "EUR",
     symbol: "€",
